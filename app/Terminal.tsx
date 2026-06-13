@@ -70,7 +70,7 @@ const projects: { name: string; description: string; tag: string }[] = [
 const contacts: { label: string; value: string; href: string }[] = [
   { label: "github", value: "https://github.com/TU-USUARIO - PDTE", href: "mailto:https://github.com/TU-USUARIO" },
   { label: "X(twitter)", value: "https://x.com/TU-USUARIO - PDTE", href: "https://x.com/TU-USUARIO" },
-  { label: "website", value: "https://TU-DOMINIO.com - PDTE", href: "https://TU-DOMINIO.com" },
+  { label: "website", value: "https://br.xh4m1n.eu", href: "https://br.xh4m1n.eu" },
   { label: "email", value: "xh4m1n@gmail.com", href: "mailto:xh4m1n@gmail.com" },
   { label: "skool", value: "@brais-r-5704", href: "https://www.skool.com/@brais-r-5704" },
 ];
@@ -209,7 +209,7 @@ function XIcon() {
 const SOCIALS = {
   github: "https://github.com/TU-USUARIO", //  ← pon tu usuario de GitHub
   x: "https://x.com/TU-USUARIO", //            ← pon tu usuario de X (Twitter)
-  website: "https://TU-DOMINIO.com", //        ← pon la URL de tu página web
+  website: "https://br.xh4m1n.eu", //        ← pon la URL de tu página web
   email: "mailto:xh4m1n@gmail.com",
   skool: "https://www.skool.com/@brais-r-5704",
 };
