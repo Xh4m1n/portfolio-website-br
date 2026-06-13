@@ -1,0 +1,82 @@
+[
+  {
+    "patterns": ["^\\s*(hola|hey|buenas|hi|hello|qu[eé] tal|saludos)\\s*[!?.]*\\s*$"],
+    "answer": "¡Hola! Pregúntame lo que quieras sobre Brais R.: su trabajo, su stack, sus proyectos o cómo contactarlo."
+  },
+  {
+    "patterns": ["qui[eé]n eres", "pres[eé]ntate", "sobre ti", "h[aá]blame de ti", "who are you", "about you", "qui[eé]n es brais"],
+    "answer": "Soy Brais R., Vibe Coder y divulgador de IA en español. Construyo SaaS y flujos agénticos describiendo lo que quiero a agentes de IA, y lo cuento para que cualquiera pueda empezar a hacerlo."
+  },
+  {
+    "patterns": ["trayectoria", "background", "experiencia", "historia", "carrera"],
+    "answer": "Vengo de un recorrido largo por la tecnología y ahora todo mi foco está en la IA aplicada. Construyo LLM apps de verdad agénticas (nivel 3 a 8), no simples wrappers de un chat, dirigiendo agentes bajo arneses como Claude Code."
+  },
+  {
+    "patterns": ["vibe coding", "qu[eé] es vibe", "c[oó]mo construyes", "c[oó]mo trabajas", "c[oó]mo programas"],
+    "answer": "Vibe Coding es construir software describiendo requisitos con precisión y dejando que los agentes de IA generen el código, en vez de escribirlo a mano. No voy a ciegas: trabajo con guardarraíles, specs y tests bien pensados."
+  },
+  {
+    "patterns": ["claude code", "\\bclaude\\b", "\\bmcp", "subagent", "agent team", "hooks"],
+    "answer": "Claude Code es mi arnés principal. Trabajo con skills, subagents, agent teams, MCPs, plugins, hooks y CLIs para llevar una idea desde la spec hasta el deploy con agentes de IA."
+  },
+  {
+    "patterns": ["skills", "habilidades", "qu[eé] sabes", "en qu[eé] eres bueno", "qu[eé] dominas"],
+    "answer": "Domino Vibe Coding, Context Engineering, Spec-Driven Development y TDD, orquestación multi-agente, automatización con n8n y RAG (hybrid search, pgvector). Y todo el ecosistema de Claude Code: skills, subagents, MCPs, hooks y CLIs."
+  },
+  {
+    "patterns": ["stack", "tecnolog[ií]as", "herramientas", "tools", "qu[eé] usas", "con qu[eé] trabajas"],
+    "answer": "Mi stack por defecto: Next.js, Supabase, Docker, n8n, Cloudflare y Coolify sobre VPS. Para construir, Claude Code y Codex; pagos con Stripe o Polar; emails con Resend. Me adapto a cada proyecto."
+  },
+  {
+    "patterns": ["salda"],
+    "answer": "Salda es un SaaS de cobros automatizados vía WhatsApp para profesionales en LatAm. Automatiza recordatorios y la gestión de pagos para que cobrar deje de ser un dolor de cabeza."
+  },
+  {
+    "patterns": ["proyectos", "projects", "qu[eé] has hecho", "qu[eé] has construido", "builds", "portfolio"],
+    "answer": "Algunos: Agentic OS v2 (un SO personal sobre Claude Desktop con Obsidian como memoria), Cowork, Salda (cobros automatizados por WhatsApp para LatAm), HirezIA (un ATS con IA) y ContentForge."
+  },
+  {
+    "patterns": ["seguridad", "security", "seguro", "privacidad", "datos de clientes"],
+    "answer": "Para mí la seguridad no se negocia: es una decisión de diseño desde el día uno, no una capa que se añade al final. Un sistema que toca datos reales tiene que estar pensado para no romperse ni filtrar nada."
+  },
+  {
+    "patterns": ["divulgaci[oó]n", "ense[ñn]as", "formaci[oó]n", "cursos", "contenido", "divulgador", "educas", "comunidad"],
+    "answer": "Sí, la otra mitad de lo que hago es divulgar IA en español: Claude, MCPs, CLIs, agentes y Vibe Coding, adaptado tanto a gente técnica como a quien empieza desde cero."
+  },
+  {
+    "patterns": ["d[oó]nde vives", "d[oó]nde est[aá]s", "ubicaci[oó]n", "location", "de d[oó]nde", "pa[ií]s", "ciudad", "remoto"],
+    "answer": "Estoy en España y trabajo en remoto sin problema."
+  },
+  {
+    "patterns": ["contacto", "contactar", "email", "correo", "reach", "escribir", "c[oó]mo te contacto", "get in touch", "hablar contigo"],
+    "answer": "La vía directa es el email: xh4m1n@gmail.com. También me encuentras en Skool como @brais-r-5704."
+  },
+  {
+    "patterns": ["skool", "redes", "social", "d[oó]nde te sigo", "s[ií]gueme", "seguirte"],
+    "answer": " Suelo estar en multiples comunidades de Skool: @brais-r-5704 (skool.com/@brais-r-5704). Ahí comparto todo tipo de contenido y reflexiones sobre cualquier tema de IA, Vibe Coding, y un largo etc...."
+  },
+  {
+    "patterns": ["disponible", "disponibilidad", "freelance", "contratar", "hire", "trabajar contigo", "colaborar", "proyecto nuevo", "disponibilidad"],
+    "answer": "Estoy abierto a colaboraciones y proyectos interesantes, sobre todo si tienen que ver con IA agéntica. Escríbeme a xh4m1n@gmail.com y lo hablamos."
+  },
+  {
+    "patterns": ["tarifa", "precio", "cu[aá]nto cobras", "rates", "presupuesto", "cu[aá]nto cuesta", "honorarios", "coste"],
+    "answer": "Depende del alcance del proyecto. Cuéntame qué tienes en mente por email (xh4m1n@gmail.com) y te paso un presupuesto a medida."
+  },
+  {
+    "patterns": ["idiomas", "languages", "hablas ingl[eé]s", "qu[eé] idiomas"],
+    "answer": "Español nativo y me manejo en inglés, que es donde vive casi toda la documentación y la jerga del mundo de la IA."
+  },
+  {
+    "patterns": ["actualmente", "ahora mismo", "en qu[eé] est[aá]s", "current", "qu[eé] haces ahora", "trabajando en"],
+    "answer": "Ahora mismo ando metido en sistemas agénticos y en seguir construyendo y divulgando: Agentic OS v2, Cowork y contenido sobre lo último en IA."
+  },
+  {
+    "patterns": ["por qu[eé] no programas", "no escribes c[oó]digo", "eres developer", "no eres developer", "por qu[eé] vibe"],
+    "answer": "Escribir código a mano es solo un medio. Prefiero dirigir agentes con specs y guardarraíles: voy más rápido y, bien hecho, el resultado es igual de sólido. No es magia, es método."
+  },
+  {
+    "patterns": ["fun fact", "curiosidad", "algo curioso", "dato curioso", "cu[eé]ntame algo"],
+    "answer": "Curiosidad: no me considero developer tradicional. No escribo código a mano, lo dirijo — soy más un director de orquesta de agentes que un instrumentista."
+  }
+]
